@@ -1,0 +1,86 @@
+.confirm-save--container{
+    width: 30%;
+    padding: 20px;
+    background-color: #fff;
+    border-radius:20px 0 20px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.confirm-save--container img{
+    width: 150px;
+}
+
+.confirm-save--container form{
+width: 100%;
+}
+
+.confirm-save--container p {
+    font-size: 18px;
+    color: #454545;
+    font-weight: 500;
+    margin: 5px 0 10px 0;
+}
+
+.confirm-save--container input{
+    border: 2.5px solid #537FE7;
+    font-size: 20px;
+    padding: 10px;
+    margin: 20px 0;
+    border-radius: 3px;
+    width: 100%;
+
+}
+
+.confirm-save--container input:focus{
+    outline: none;
+    border: 2.5px solid #537FE7;
+}
+
+.confirm-save-btn-container{
+    display: flex;
+    width: 100%;
+}
+
+.confirm-save-btn-container button{
+    font-size: 18px;
+    padding: 10px 13px;
+    border: none;
+    margin: 10px 0;
+    width: 50%;
+    border-radius: 3px;
+    cursor: pointer;
+    border: 2px solid transparent;
+    font-weight: 500;
+}
+
+.confirm-save-btn-cancel{
+    margin-right: 5px !important;
+    background-color: #fff !important;
+    color: #ff3737 !important;
+    border-color: #ff3737 !important;
+}
+.confirm-save-btn-save{
+    margin-left: 5px !important;
+    background-color: #74dc2e;
+    color: white;
+    border-color: #74dc2e !important;
+}
+
+.confirm-text--container{
+    margin: 10px 0;
+}
+
+.confirm-text--container p {
+    text-align: justify;
+    font-weight: 400;
+}
+
+.confirm-text--container p span{
+    color: #000;
+    font-weight: 500;
+}
+

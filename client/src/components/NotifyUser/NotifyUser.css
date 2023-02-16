@@ -1,0 +1,48 @@
+.notify-container{
+   padding: 20px;
+   border-radius: 4px;
+   background-color: white;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   position: absolute;
+   top: 30px;
+   right: 30px;
+   font-weight: 300;
+   color: #454545;
+   text-transform: capitalize;
+   animation-name: notify;
+   animation-duration: 2s;
+   animation-iteration-count: 1;
+   transform: translateX(300px);
+
+}
+
+.success{
+    border: 2px solid #74dc2e;
+    border-left: 8px solid #74dc2e;
+}
+
+.error{
+    border: 2px solid #ff3737;
+    border-left: 8px solid #ff3737;
+}
+
+@keyframes notify {
+    0%{
+        transform: translateX(300px);
+    }
+    20%{
+        transform: translateX(0);
+    }
+
+    50%{
+        transform: translateX(0);
+    }
+    80%{
+        transform: translateX(0);
+    }
+   
+    100%{
+        transform: translateX(300px);
+    }
+    
+}
